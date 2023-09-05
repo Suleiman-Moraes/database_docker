@@ -15,3 +15,11 @@ Repository for my databases using docker-compose
         title="PostgreSQL">
   </div>
 </p>
+<h1 align="center">Others</h1>
+<p align="center">
+  <div align="center" style="display: inline_block"><br>
+     <img align="center" alt="Susu-RabbitMQ" height="30" width="40"
+        src="https://www.rabbitmq.com/img/logo-rabbitmq.svg" 
+        title="RabbitMQ">
+  </div>
+</p>
