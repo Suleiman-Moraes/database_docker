@@ -12,13 +12,13 @@ Repository for my databases using docker-compose
         title="PostgreSQL">
      <img align="center" alt="Susu-Redis" height="30" width="40"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-plain.svg" 
-        title="PostgreSQL">
+        title="Redis">
   </div>
 </p>
 <h1 align="center">Others</h1>
 <p align="center">
   <div align="center" style="display: inline_block"><br>
-     <img align="center" alt="Susu-RabbitMQ" height="30" width="40"
+     <img align="center" alt="Susu-RabbitMQ" height="30" width="70"
         src="https://www.rabbitmq.com/img/logo-rabbitmq.svg" 
         title="RabbitMQ">
   </div>
