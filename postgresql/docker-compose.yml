@@ -12,6 +12,12 @@ services:
       - '5432:5432'
     volumes:
       - postgresdata:/var/lib/postgresql/data
+    networks:
+      - susu-net
+
+networks:
+  susu-net:
+    driver: bridge
 
 volumes:
   postgresdata:
