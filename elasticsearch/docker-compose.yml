@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.4
+    container_name: elasticsearch
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    environment:
+      discovery.type: 'single-node'
+      ES_JAVA_OPTS: '-Xms2g -Xmx2g'
+      ELASTIC_PASSWORD: '12345678'
+      xpack.security.enabled: true
+    networks:
+      - susu-net
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+
+volumes:
+  elasticsearch_data:
+    driver: local
+
+networks:
+  susu-net:
+    driver: bridge
